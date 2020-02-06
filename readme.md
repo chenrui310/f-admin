@@ -110,10 +110,12 @@ f-admin基础权限后台是一套基于Laravel框架开发的系统，不需要
 用户名：admin  
 密码：f123456
 
-遇到问题（
+遇到问题
+
 1.linux/nginx 登陆页面404  
   解决
   try_files $uri $uri/ /index.php?$query_string;
+
 2. laravel 5.4错误提示：please provide a valid cache path    
   解决：
   使用laravel5.4的时候，提示这个错误please provide a valid cache path，翻译一下：请提供一个有效的缓存路径。 
